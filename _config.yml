@@ -60,8 +60,8 @@ content:
         description: | # this will include new lines to allow paragraphs
          L'échafaudage est un problème bioinformatique visant à compléter le processus d'assemblage de contigs en déterminant la position et l'orientation relatives de ces contigs.
          Il peut être considéré comme un problème de couverture des chemins et des cycles d'un graphe particulier appelé "graphe d'échafaudage".
-         
-         Dans cet article, nous fournissons quelques résultats de NP-hardness et d'inapproximabilité sur ce problème. Nous adaptons également un algorithme d'approximation par la cupidité sur des graphes complets afin qu'il fonctionne sur une classe spéciale visant à être proche des instances réelles.
+
+         Dans cet article, nous fournissons quelques résultats de NP-hardness et d'inapproximabilité sur ce problème. Nous adaptons également un algorithme d'approximation glouton sur des graphes complets afin qu'il fonctionne sur une classe spéciale visant à être proche des instances réelles.
         
          L'algorithme décrit est le premier algorithme d'approximation en temps polynomial conçu pour ce problème sur des graphes non complets.
       
