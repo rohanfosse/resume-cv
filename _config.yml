@@ -39,10 +39,13 @@ linkedin_username: rohanfosse
 # about_title: About Me
 about_profile_image: images/photo-rohan.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  	Je suis actuellement un ATER (Attaché Temporaire d'Enseignement et de Recherche) à <a href="http://www.u-bordeaux.fr">l'Université de Bordeaux</a>. Je suis également en train de soutenir un doctorat, que j'effectue au <a href="http://www.labri.fr">LaBRI</a> et à <a href="http://www.u-bordeaux.fr">l'Université de Bordeaux</a> sous la direction de <a href="http://www.labri.fr/perso/mbonamy/">Laurent Simon</a>.
+    Vous pouvez trouver <a href="data/publis/thesis.pdf">ici</a> plus d'informations sur ce sujet.
+    Avant cela, J'ai obtenu un <a href="https://www.u-bordeaux.fr/formation/2017/PRMA_68/informatique">Master</a> en Informatique théorique de l'Universityé de Bordeaux en Septembre 2017.
+    
+    Pour plus d'informations, vous pouvez télécharger une version abrégée de mon <a href="data/short-cv.pdf">curriculum vitæ <i class="far fa-file-pdf" aria-hidden="true"></i></a> (en anglais).
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
+    
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
