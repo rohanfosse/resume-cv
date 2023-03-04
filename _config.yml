@@ -57,7 +57,11 @@ content:
         title: <a href="https://rdcu.be/c6R0g"><b>On a Greedy Approach for Genome Scaffolding.</b></a>
         caption: 2022
         sub_title: Tom Davot, Annie Chateau, Rohan Fossé et al.
-
+        
+      - layout: center
+        title: <a href="https://rdcu.be/c6R0g"><b>On a Greedy Approach for Genome Scaffolding.</b></a>
+        caption: 2022
+        sub_title: Tom Davot, Annie Chateau, Rohan Fossé et al.
 
 
   - title: Education # Title for the section
