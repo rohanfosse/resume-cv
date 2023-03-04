@@ -51,7 +51,7 @@ about_content: |
 # Skills Section
 content:
   - title: Publications # Title for the section
-    layout: text # Type of content section (list/text)
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: <a href="https://rdcu.be/c6R0g"><b>On a Greedy Approach for Genome Scaffolding.</b></a>
