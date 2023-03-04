@@ -66,7 +66,7 @@ content:
          L'algorithme décrit est le premier algorithme d'approximation en temps polynomial conçu pour ce problème sur des graphes non complets.
       
       - layout: left
-        title: <a href="pdf/optimal.pdf"> Optimal placement of protocol converters for connectivity - Complexity and algorithms</a>
+        title: <b><a href="pdf/optimal.pdf"> Optimal placement of protocol converters for connectivity - Complexity and algorithms</a></b>
         sub_title: Rohan Fossé, <a href="https://www.labri.fr/perso/mlamali/">Mohamed Lamine Lamali</a>, <a href="https://www.labri.fr/perso/pouvrard/index.html">Paul Ouvrard</a>.
         description: |
          La virtualisation des fonctions réseau est un paradigme qui consiste à remplacer les dispositifs matériels par des fonctions réseau virtuelles (VNF).
@@ -81,11 +81,12 @@ content:
          Nous effectuons des simulations approfondies sur des t opologies aléatoires et réelles pour montrer l'efficacité des différentes approches proposées.
 
       - layout: left
-        title: <a href="https://www.labri.fr/perso/lsimon/downloads/papers/cp18.pdf">On the Non-degeneracy of Unsatisfiability Proof Graphs Produced by SAT Solvers<:/a>
+        title: <b><a href="https://www.labri.fr/perso/lsimon/downloads/papers/cp18.pdf">On the Non-degeneracy of Unsatisfiability Proof Graphs Produced by SAT Solvers<:/a></b>
         sub_title: Rohan Fossé, <a href="https://www.labri.fr/perso/lsimon/">Laurent Simon</a>
         caption: <a href="cp2018.a4cp.org">International Conference on Principles and Practice of Constraint Programming</a> - 2018
         description: |
-             Malgré les efforts importants déployés pour développer des solveurs SAT rapides et puissants, de nombreux aspects de leurs comportements restent largement inexpliqués. Nous analysons les propriétés des clauses apprises dérivées par un algorithme typique d'apprentissage des clauses par conflit (CDCL) et étudions comment elles sont liées à leurs ancêtres, dans le graphe de dépendance généré par les étapes de résolution pendant l'analyse des conflits et la minimisation des clauses. 
+             Malgré les efforts importants déployés pour développer des solveurs SAT rapides et puissants, de nombreux aspects de leurs comportements restent largement inexpliqués. 
+             Nous analysons les propriétés des clauses apprises dérivées par un algorithme typique d'apprentissage des clauses par conflit (CDCL) et étudions comment elles sont liées à leurs ancêtres, dans le graphe de dépendance généré par les étapes de résolution pendant l'analyse des conflits et la minimisation des clauses. 
              Nous montrons que tous ces graphes partagent une structure commune : ils sont non k-dégénérés avec des valeurs étonnamment grandes, ce qui signifie qu'ils contiennent un sous-graphe très dense, le K-Core.
              Nous dévoilons l'existence de grands K-Cores, même sur des solveurs SAT parallélisés avec échanges de clauses. 
              Nous montrons que l'analyse du K-Core permet une bonne prédiction des littéraux qui apparaîtront dans les futures clauses apprises, jusqu'à la fin du calcul. De plus, nous montrons que l'analyse du graphe permet d'identifier un ensemble de clauses apprises qui seront nécessaires pour dériver la contradiction finale. 
