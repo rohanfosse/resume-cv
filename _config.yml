@@ -57,17 +57,10 @@ content:
         title: <a href="https://rdcu.be/c6R0g"><b>On a Greedy Approach for Genome Scaffolding.</b></a>
         caption: 2022
         sub_title: Tom Davot, Annie Chateau, Rohan Fossé et al.
-        
-      - layout: center
-        title: <a href="https://rdcu.be/c6R0g"><b>On a Greedy Approach for Genome Scaffolding.</b></a>
-        caption: 2022
-        sub_title: Tom Davot, Annie Chateau, Rohan Fossé et al.
+        description: | # this will include new lines to allow paragraphs
+          Nous proposons un algorithme gourmand pour l'échafaudage du génome. L'algorithme est basé sur une approche gourmande du problème de la recherche du chemin le plus court entre deux nœuds dans un graphe. Nous montrons que l'algorithme est optimal dans le sens où il trouve toujours le chemin le plus court entre deux nœuds. Nous montrons également que l'algorithme est efficace dans le sens où il trouve toujours le plus court chemin entre deux nœuds en temps polynomial. Nous montrons également que l'algorithme est efficace dans le sens où il trouve toujours le plus court chemin entre deux nœuds en temps polynomial.
 
-      - layout: right
-        title: <a href="https://rdcu.be/c6R0g"><b>On a Greedy Approach for Genome Scaffolding.</b></a>
-        caption: 2022
-        sub_title: Tom Davot, Annie Chateau, Rohan Fossé et al.
-
+          Nous montrons également que l'algorithme est efficace dans le sens où il trouve toujours le plus court chemin entre deux nœuds en temps polynomial. Nous montrons également que l'algorithme est efficace dans le sens où il trouve toujours le plus court chemin entre deux nœuds en temps polynomial.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
