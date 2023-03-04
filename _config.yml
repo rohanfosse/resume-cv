@@ -36,7 +36,7 @@ linkedin_username: rohanfosse
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: A propos de moi
 about_profile_image: images/photo-rohan.jpg
 about_content: | # this will include new lines to allow paragraphs
   	Je suis actuellement un ATER (Attaché Temporaire d'Enseignement et de Recherche) à <a href="http://www.u-bordeaux.fr">l'Université de Bordeaux</a>. Je suis également en train de soutenir un doctorat, que j'effectue au <a href="http://www.labri.fr">LaBRI</a> et à <a href="http://www.u-bordeaux.fr">l'Université de Bordeaux</a> sous la direction de <a href="http://www.labri.fr/perso/mbonamy/">Laurent Simon</a>.
@@ -45,7 +45,7 @@ about_content: | # this will include new lines to allow paragraphs
     
     Pour plus d'informations, vous pouvez télécharger une version abrégée de mon <a href="data/short-cv.pdf">curriculum vitæ <i class="far fa-file-pdf" aria-hidden="true"></i></a> (en anglais).
 
-    
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
