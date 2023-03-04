@@ -66,15 +66,30 @@ content:
          L'algorithme décrit est le premier algorithme d'approximation en temps polynomial conçu pour ce problème sur des graphes non complets.
       
       - layout: left
-        title: <a href="pdf/CR_algotel.pdf"> SAT EST IN BONO LOCO Oui mais combien ? et où ?</a>
-        caption: Algotel 2019
-        sub_title: Rohan Fossé, Mohamed Lamine Lamali, Paul Ouvrard.
+        title: <a href="pdf/optimal.pdf"> Optimal placement of protocol converters for connectivity - Complexity and algorithms</a>
+        sub_title: Rohan Fossé, <a href="https://www.labri.fr/perso/mlamali/">Mohamed Lamine Lamali</a>, <a href="https://www.labri.fr/perso/pouvrard/index.html">Paul Ouvrard</a>.
         description: |
-         Dans un réseau hétérogène, plusieurs protocoles de communication coexistent, par exemple IPv4 et IPv6.
-         Afin d’assurer l’interopérabilité et la communication, des convertisseurs (e.g., une configuration Dual Stack)
-         sont placés sur certaines machines. Nous nous intéressons au problème de minimiser le nombre de convertisseurs à placer dans le réseau tout en assurant la communication entre chaque paire de machines.
-         Dans ce travail préliminaire, nous montrons que le problème est NP-complet. Nous proposons également une réduction vers SAT qui permettra d’utiliser des solveurs pour résoudre le problème.
+         La virtualisation des fonctions réseau est un paradigme qui consiste à remplacer les dispositifs matériels par des fonctions réseau virtuelles (VNF).
+         Ces VNF doivent être placées avec soin afin de respecter certains objectifs de coût.
+         Les travaux récents considèrent des cas complexes avec plusieurs flux, des contraintes de capacité, etc.
+         Ici, nous considérons un problème de placement de NFV (apparemment) beaucoup plus simple : assurer la connectivité. 
+         Étant donné un réseau avec plusieurs types de nœuds, un lien entre deux nœuds de types différents ne peut être utilisé que si l'un de ses points d'extrémité possède un NFV. 
+         Notre objectif est de minimiser le nombre de NFV placés tout en assurant la connectivité du réseau. Ce problème a plusieurs cas d'utilisation (par exemple, l'interopérabilité des protocoles). 
+         Malgré son apparente simplicité, nous prouvons qu'il est NP-complet et, selon des conjectures largement répandues, il n'a pas d'algorithme en (\ 2^{o(n)} \times poly(n) \) temps, et il ne peut pas être approximé dans un meilleur rapport que \(O(log\ n)\). 
+         Nous concevons un algorithme avide de performance prouvable qui respecte cette limite. 
+         En tirant parti de l'efficacité actuelle des solveurs SAT, nous proposons une formulation SAT du problème et la comparons à une approche ILP binaire. 
+         Nous effectuons des simulations approfondies sur des t opologies aléatoires et réelles pour montrer l'efficacité des différentes approches proposées.
 
+      - layout: left
+        title: <a href="https://www.labri.fr/perso/lsimon/downloads/papers/cp18.pdf">On the Non-degeneracy of Unsatisfiability Proof Graphs Produced by SAT Solvers<:/a>
+        sub_title: Rohan Fossé, <a href="https://www.labri.fr/perso/lsimon/">Laurent Simon</a>
+        caption: <a href="cp2018.a4cp.org">International Conference on Principles and Practice of Constraint Programming</a> - 2018
+        description: |
+             Malgré les efforts importants déployés pour développer des solveurs SAT rapides et puissants, de nombreux aspects de leurs comportements restent largement inexpliqués. Nous analysons les propriétés des clauses apprises dérivées par un algorithme typique d'apprentissage des clauses par conflit (CDCL) et étudions comment elles sont liées à leurs ancêtres, dans le graphe de dépendance généré par les étapes de résolution pendant l'analyse des conflits et la minimisation des clauses. 
+             Nous montrons que tous ces graphes partagent une structure commune : ils sont non k-dégénérés avec des valeurs étonnamment grandes, ce qui signifie qu'ils contiennent un sous-graphe très dense, le K-Core.
+             Nous dévoilons l'existence de grands K-Cores, même sur des solveurs SAT parallélisés avec échanges de clauses. 
+             Nous montrons que l'analyse du K-Core permet une bonne prédiction des littéraux qui apparaîtront dans les futures clauses apprises, jusqu'à la fin du calcul. De plus, nous montrons que l'analyse du graphe permet d'identifier un ensemble de clauses apprises qui seront nécessaires pour dériver la contradiction finale. 
+             Enfin, nous démontrons que l'analyse du graphe de dépendance est possible à un coût raisonnable dans tout CDCL.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
