@@ -58,9 +58,13 @@ content:
         caption: 2022
         sub_title: Tom Davot, Annie Chateau, Rohan Fossé et al.
         description: | # this will include new lines to allow paragraphs
-          Nous proposons un algorithme gourmand pour l'échafaudage du génome. L'algorithme est basé sur une approche gourmande du problème de la recherche du chemin le plus court entre deux nœuds dans un graphe. Nous montrons que l'algorithme est optimal dans le sens où il trouve toujours le chemin le plus court entre deux nœuds. Nous montrons également que l'algorithme est efficace dans le sens où il trouve toujours le plus court chemin entre deux nœuds en temps polynomial. Nous montrons également que l'algorithme est efficace dans le sens où il trouve toujours le plus court chemin entre deux nœuds en temps polynomial.
-
-          Nous montrons également que l'algorithme est efficace dans le sens où il trouve toujours le plus court chemin entre deux nœuds en temps polynomial. Nous montrons également que l'algorithme est efficace dans le sens où il trouve toujours le plus court chemin entre deux nœuds en temps polynomial.
+         L'échafaudage est un problème bioinformatique visant à compléter le processus d'assemblage de contigs en déterminant la position et l'orientation relatives de ces contigs.
+         Il peut être considéré comme un problème de couverture des chemins et des cycles d'un graphe particulier appelé "graphe d'échafaudage".
+         
+         Dans cet article, nous fournissons quelques résultats de NP-hardness et d'inapproximabilité sur ce problème. Nous adaptons également un algorithme d'approximation par la cupidité sur des graphes complets afin qu'il fonctionne sur une classe spéciale visant à être proche des instances réelles.
+        
+         L'algorithme décrit est le premier algorithme d'approximation en temps polynomial conçu pour ce problème sur des graphes non complets.
+      
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
