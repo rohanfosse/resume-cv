@@ -45,80 +45,61 @@ about_content: |
 
   Avant cela, J'ai obtenu un <a href="https://www.u-bordeaux.fr/formation/2017/PRMA_68/informatique">Master</a> en Informatique théorique de l'Universityé de Bordeaux en Septembre 2017.
     
-  Pour plus d'informations, vous pouvez télécharger une version abrégée de mon <a href="data/short-cv.pdf">curriculum vitæ <i class="far fa-file-pdf" aria-hidden="true"></i></a> (en anglais).
 
 
 # Skills Section
 content:
-  - title: Publications # Title for the section
+  - title: Expérience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: <a href="https://rdcu.be/c6R0g"><b>On a Greedy Approach for Genome Scaffolding.</b></a>
-        caption: BMC22
-        sub_title: Tom Davot, Annie Chateau, Rohan Fossé et al.
+        title: Université de Bordeaux
+        caption: 2022 - 2023
+        sub_title: Attaché temporaire d'enseignement et de recherche
         description: | # this will include new lines to allow paragraphs
-         L'échafaudage est un problème bioinformatique visant à compléter le processus d'assemblage de contigs en déterminant la position et l'orientation relatives de ces contigs.
-         Il peut être considéré comme un problème de couverture des chemins et des cycles d'un graphe particulier appelé "graphe d'échafaudage".
+          Au cours de cette année, j'ai enseigné dans les cours suivants :
+          - Algorithmique des structures de données élémentaires - L2 Info - Enseignement intégré et Travaux dirigés - 35h
+          - Programmation C - L2 Maths-Info - Enseignement intégré et Travaux dirigés - 36h
+          - Méthodologie Scientifique - L1 - Enseignement intégré et Travaux dirigés - 21h
+          - Réseaux et Sécurité des systèmes d'Information - M1 MIAGE - Travail dirigé - 28h
+          - Base de données et Programmation Web - L1 - Travaux Pratique - 28h
+          - Initiation à la programmation C sous Unix - L2 Info - Travaux Pratique - 16h
 
-         Dans cet article, nous fournissons quelques résultats de NP-hardness et d'inapproximabilité sur ce problème. Nous adaptons également un algorithme d'approximation glouton sur des graphes complets afin qu'il fonctionne sur une classe spéciale visant à être proche des instances réelles.
+      - layout: left
+        title: ENSEIRB - MATMECA
+        caption: 2021 - 2022
+        sub_title: Attaché temporaire d'enseignement et de recherche
+        description: | # this will include new lines to allow paragraphs
+          Au cours de cette année, j'ai été responsable des cours suivants :
+          - Algorithmique et structure de données - 1ère année - Cours magistraux et Enseignement intégré - 66h
+          - Programmation Web - 1ère année - Enseignement intégré et Travaux Pratique - 81h
+          - Algorithmique distribué - 2ème année - Enseignement intégré - 34h
         
-         L'algorithme décrit est le premier algorithme d'approximation en temps polynomial conçu pour ce problème sur des graphes non complets.
+          J'ai également été tuteur de stage de 2ème année pour 3 étudiants.
+
+  - title: Formation
+    layout: list
+    content: 
+
+      - layout: left
+        title: Université de Bordeaux
+        caption: 2017 - 
+        sub_title: Doctorat en Informatique
+        
+      - layout: left
+        title: Université de Bordeaux
+        caption: 2015 - 2017
+        sub_title: Master en Informatique théorique
+
+      - layout: left
+        title: Université de Bordeaux
+        caption: 2014 - 2015
+        sub_title: Licence en Informatique
       
       - layout: left
-        title: <b><a href="pdf/optimal.pdf"> Optimal placement of protocol converters for connectivity - Complexity and algorithms</a></b>
-        sub_title: Rohan Fossé, <a href="https://www.labri.fr/perso/mlamali/">Mohamed Lamine Lamali</a>, <a href="https://www.labri.fr/perso/pouvrard/index.html">Paul Ouvrard</a>.
-        description: |
-         La virtualisation des fonctions réseau est un paradigme qui consiste à remplacer les dispositifs matériels par des fonctions réseau virtuelles (VNF).
-         Ces VNF doivent être placées avec soin afin de respecter certains objectifs de coût.
-
-         Les travaux récents considèrent des cas complexes avec plusieurs flux, des contraintes de capacité, etc.
-         Ici, nous considérons un problème de placement de NFV (apparemment) beaucoup plus simple : assurer la connectivité. 
-
-         Malgré son apparente simplicité, nous prouvons qu'il est NP-complet et, selon des conjectures largement répandues, il n'a pas d'algorithme en (\ 2^{o(n)} \times poly(n) \) temps, et il ne peut pas être approximé dans un meilleur rapport que \(O(log\ n)\). 
-         Nous concevons un algorithme avide de performance prouvable qui respecte cette limite. 
-
-         En tirant parti de l'efficacité actuelle des solveurs SAT, nous proposons une formulation SAT du problème et la comparons à une approche ILP binaire. 
-         Nous effectuons des simulations approfondies sur des t opologies aléatoires et réelles pour montrer l'efficacité des différentes approches proposées.
-
-      - layout: left
-        title: <b><a href="https://www.labri.fr/perso/lsimon/downloads/papers/cp18.pdf">On the Non-degeneracy of Unsatisfiability Proof Graphs Produced by SAT Solvers</a></b>
-        sub_title: Rohan Fossé, <a href="https://www.labri.fr/perso/lsimon/">Laurent Simon</a>
-        caption: <a href="cp2018.a4cp.org">International Conference on Principles and Practice of Constraint Programming</a> - 2018
-        description: |
-             Malgré les efforts importants déployés pour développer des solveurs SAT rapides et puissants, de nombreux aspects de leurs comportements restent largement inexpliqués. 
-             Nous analysons les propriétés des clauses apprises dérivées par un algorithme typique d'apprentissage des clauses par conflit (CDCL) et étudions comment elles sont liées à leurs ancêtres, dans le graphe de dépendance généré par les étapes de résolution pendant l'analyse des conflits et la minimisation des clauses. 
-             Nous montrons que tous ces graphes partagent une structure commune : ils sont non k-dégénérés avec des valeurs étonnamment grandes, ce qui signifie qu'ils contiennent un sous-graphe très dense, le K-Core.
-             Nous dévoilons l'existence de grands K-Cores, même sur des solveurs SAT parallélisés avec échanges de clauses. 
-
-             Nous montrons que l'analyse du K-Core permet une bonne prédiction des littéraux qui apparaîtront dans les futures clauses apprises, jusqu'à la fin du calcul. De plus, nous montrons que l'analyse du graphe permet d'identifier un ensemble de clauses apprises qui seront nécessaires pour dériver la contradiction finale. 
-             Enfin, nous démontrons que l'analyse du graphe de dépendance est possible à un coût raisonnable dans tout CDCL.
-
-  - title: Enseignement # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+        title: EISTI
+        caption: 2012 - 2014
+        sub_title: Classe préparatoire intégrée
 
 # Footer
 footer_show_references: true
